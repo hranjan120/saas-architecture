@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://localhost:8000/",
+    "clientUrl": "http://localhost:4200/",
+    "authConfig":{
+      "userKey": "mPpvftQjV@nL3h2*EKtWdfv5d8d2N49dut9t#S7sdf456"
+    }
+  }
