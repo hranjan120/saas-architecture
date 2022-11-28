@@ -35,7 +35,7 @@ const initTenantDbConnection = async (DB_URL) => {
             useUnifiedTopology: true,
             socketTimeoutMS: 30000,
             keepAlive: true,
-            maxPoolSize: 1,
+            maxPoolSize: 5,
             retryWrites: false,
         };
         const dbConn = mongoose.createConnection(DB_URL, dbConnObj);

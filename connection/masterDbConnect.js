@@ -11,7 +11,7 @@ const initMasterDbConnection = async () => new Promise((resolve) => {
         useUnifiedTopology: true,
         socketTimeoutMS: 30000,
         keepAlive: true,
-        maxPoolSize: 1,
+        maxPoolSize: 10,
         retryWrites: false,
     };
     const DB_URL = `${process.env.MASTER_DB_URL}`;
